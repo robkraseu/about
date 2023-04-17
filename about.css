@@ -8,20 +8,19 @@ html, body {
 	overflow: hidden;
 }
 
-div.nav {
-	text-align: left;
-	font-size: 1.15em;
-	margin: 0.625rem;
-	text-decoration: none;
-	line-height: 2.5em;
+.position {
+    text-align: left;
+    margin-left: 1rem;
+    padding-right: 1rem;
 }
 
-.position {
-	position: absolute;
-	left: 50%;
-	top: 45%;
-	-webkit-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
+@media (min-width: 768px) and (min-height: 700px) {       
+    .position {
+        position: absolute;
+        left: 50%;
+        top: 45%;
+        transform: translate(-50%, -50%);
+    }
 }
 
 /* ################button################## */
